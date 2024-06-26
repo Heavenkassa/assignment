@@ -1,0 +1,126 @@
+button,
+input[type="submit"],
+input[type="reset"] {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+body {
+  background: #eeeeee;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.logo {
+  font-family: DM Sans;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 62.5px;
+  text-align: left;
+  color: #5e5bfb;
+  margin-right: 10%;
+}
+.midddle-people {
+  font-family: DM Sans;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 46.87px;
+  text-align: left;
+}
+.nav-button {
+  width: 240px;
+  height: 79px;
+  border-radius: 10px;
+  opacity: 0px;
+  background: #423fe5;
+  span {
+    font-family: DM Sans;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 46.87px;
+    text-align: left;
+    color: white;
+  }
+}
+.hero-container {
+  width: 50%;
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+
+.hero-main-text {
+  font-family: DM Sans;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 83.33px;
+  text-align: left;
+}
+
+.hero1 {
+  color: #5c5b8f;
+}
+.hero2 {
+  color: black;
+}
+.hero3 {
+  color: #5e5bfb;
+}
+.apple-mac {
+  color: #5f5b5b;
+  width: 90%;
+  margin-bottom: 20px;
+}
+.panera-bread {
+  display: flex;
+  input {
+    width: 250px;
+    height: 50px;
+    padding-left: 50px;
+    background-color: white;
+    border: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  button {
+    padding-inline: 20px;
+    background: #423fe5;
+    color: white;
+  }
+}
+.heaven {
+  display: flex;
+}
+.image-cont {
+  display: flex;
+  gap: 20px;
+  height: 800px;
+}
+.image1 {
+  align-self: flex-end;
+  margin-block: 85px;
+}
+
+.image2 {
+}
+.abebe-kebede {
+  background: #7d7afb;
+  width: 180px;
+  padding: 20px 50px;
+  border-radius: 10px;
+  position: absolute;
+  left: 980px;
+  top: 600px;
+  color: white;
+}
+.hi {
+  margin-left: 30px;
+}
